@@ -1,0 +1,175 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:white;
+    
+}
+header{
+    background-color:#199;
+    height:80px;
+    }
+
+header ul {
+    list-style:none
+}
+
+header ul li{
+    display: inline-block;
+    margin-right:15px;
+    margin-top:20px;
+    
+}
+header ul li a{
+    text-decoration:none;
+    color:white;
+}
+a{
+    font-size:120%;
+    text-align:center;
+}
+
+h1{
+    color:#999;
+    text-align:center;
+}
+h2{
+    text-align:center;
+    
+}
+
+.id{
+    display: block;
+
+}
+
+.grandes{
+    height:250px;
+    background-color:#899;
+    border-top: 8px solid #189
+    ;box-shadow: 2px 2px 2px #011
+}
+img{
+    width:450px;
+    height:450px;
+    margin-left:0px;
+}
+.map{
+    margin-left:10px;
+    padding:20px;
+    font-size:120%;
+    color:black;
+
+}
+
+nav section[class="grande"] ul{
+    list-style:none;
+    margin-right:20px;
+}
+
+nav section[class="grande"] ul li{
+    display:inline-block;
+    margin-right:100px;
+    font-size:120%;
+}
+nav section[class="exp"] ul{
+    list-style:none;
+    margin-right:20px;
+}
+
+nav section[class="exp"] ul li{
+    display:inline-block;
+    margin-right:100px;
+    font-size:120%;
+
+}
+
+.grande{
+    background-color:#975;
+    border-top: 8px solid #956;
+    box-shadow:2px 2px 2px white;
+}
+nav section[class="ima"] ul{
+    list-style:none;
+    margin-right:20px;
+    display:block;
+}
+
+nav section[class="ima"] ul li{
+    display:inline-block;
+    margin-right:100px;
+    font-size:120%;
+}
+
+.ima{
+    background-color:#598;
+    height:250px;
+    border-top:8px solid #995;
+    padding:20px;
+}
+
+footer{
+    background-color:#997;
+    text-align:center;
+    font-size:120%;
+    height:150px;
+    padding:20px;
+    margin-top:10px;
+}
+
+@media screen and (max-width:680px){
+   .grandes{
+              height:450px;
+              background-color:#899;
+              border-top: 8px solid #189;
+              box-shadow: 2px 2px 2px #011;
+   }
+   .ima{
+              background-color:#598;
+              height:320px;
+              border-top:8px solid #995;
+              padding:20px;
+}
+    img{
+            width:460px;
+            height:460px;
+            margin-left:0px;
+    }          
+    
+   .mait{
+            background-color:#999;
+            margin-left:8px;
+            margin-top:8px;
+            font-size:120%;
+            height:160px;
+            padding:20px;
+            width:450px;
+   }
+            
+    strong{
+           color:blue;
+}
+
+}
+
+@media screen and (min-width:681px) and (max-width:1279px){
+    .grandes{
+              height:330px;
+              background-color:#899;
+              border-top: 8px solid #189;
+              box-shadow: 2px 2px 2px #011;
+   }
+    
+    .mait{
+              background-color:#999;
+              margin-left:30px;
+              margin-top:20px;
+              font-size:120%;
+             height:160px;
+             padding:20px;}
+    
+    strong{
+    color:blue;
+}          
+
+}
+

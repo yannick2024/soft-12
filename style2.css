@@ -1,0 +1,37 @@
+#news3,#news1,#news2{
+    border: 2px solid black;
+    display:inline-block;
+    width:150px;
+    height:50px;
+    background-color:#000;
+    color:white;
+    padding-top:10px;
+    margin-left:100px;
+    text-decoration:none;
+    box-shadow:2px 2px 2px white
+}
+
+.mait{
+    background-color:#999;
+    margin-left:30px;
+    margin-top:20px;
+    font-size:120%;
+    height:160px;
+    padding:20px;}
+    
+    strong{
+    color:blue;
+}
+
+div[class="nott"] p{
+    font-size:130%;
+    font-style:normal;
+    color:black;
+}
+
+.nott{
+    margin-left:20px;
+    margin-top:10px;
+    padding:10px;
+    
+}
